@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ระบบบันทึกการลาของครูและบุคลากร โรงเรียนครูกิ๊กจ้าพาใช้ AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100&family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Prompt', 'Sarabun', 'sans-serif'],
+              sarabun: ['Sarabun', 'sans-serif'],
+            },
+            colors: {
+              primary: '#1E40AF', // Blue 800
+              secondary: '#3B82F6', // Blue 500
+              accent: '#EFF6FF', // Blue 50
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        font-family: 'Prompt', sans-serif;
+        background-color: #f3f4f6;
+      }
+      @media print {
+        body {
+            background-color: white;
+            font-family: 'Sarabun', sans-serif;
+        }
+        .no-print {
+            display: none !important;
+        }
+        @page {
+            size: A4;
+            margin: 15mm;
+        }
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.4.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
